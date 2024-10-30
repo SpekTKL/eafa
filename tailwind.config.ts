@@ -11,7 +11,13 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        "eafa-green": "#02732f",
+        "eafa-red": "#ff0000",
       },
+      boxShadow: {
+        "slide-before": "inset 0 0 0 0 green-600",
+        "slide-after": "inset 500px 0 0 0 white",
+      }
     },
   },
   plugins: [],
