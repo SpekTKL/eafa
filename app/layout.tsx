@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { GoogleTagManager } from "@next/third-parties/google"
 import {Open_Sans} from "next/font/google";
 
 const openSans = Open_Sans({
@@ -19,6 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+    <GoogleTagManager gtmId={"GTM-NSH7QLL5"} />
       <body
         className={`${openSans.className} antialiased`}
       >
