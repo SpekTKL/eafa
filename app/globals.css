@@ -26,6 +26,11 @@
     gap: 3rem;
     width: 50%;
   }
+
+  .event-container {
+    @apply border-l border-gray-400;
+    padding: 0 1.25rem;
+  }
 }
 
 @media (max-width: 56.25rem) {
@@ -57,7 +62,7 @@
     flex-direction: column;
     align-items: flex-start;
     height: auto;
-    gap: 0.5rem;
+    gap: 1rem;
     margin-top: 1rem;
   }
   .title-logo {

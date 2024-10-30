@@ -7,17 +7,19 @@ interface Props {
     registerLink?: string;
     websiteLink?: string;
     registerButtonText?: string;
+    leagueName: string;
 }
 
 export default function EventProfile(props: Props) {
 
     return (
-        <div className="event-container border-l border-gray-400 w-full h-auto px-5">
-            <div className="title-logo flex items-center justify-between h-16">
+        <div className="event-container w-full h-auto px-20">
+            <div className="title-logo flex items-center justify-between">
                 <div className="text flex flex-col gap-1">
                     {props.inProgress ? <p className={"font-medium text-green-600"}>In Progress</p> :
                         <p className={"font-medium text-amber-500"}>{props.eventDate}</p>}
                     <h3 className={"font-medium text-xl"}>{props.eventTitle}</h3>
+                    <p>{props.leagueName}</p>
                     <p>{props.eventCategory}</p>
                 </div>
                 {props.logo ? <img className={"object-contain w-auto h-16"} src={props.logo} alt={"league logo"}/> : ""}
