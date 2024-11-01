@@ -14,7 +14,7 @@ export default function EventProfile(props: Props) {
 
     return (
         <div className="event-container w-full h-auto px-20">
-            <div className="title-logo flex items-center justify-between">
+            <div className="title-logo flex items-center justify-between gap-2">
                 <div className="text flex flex-col gap-1">
                     {props.inProgress ? <p className={"font-medium text-green-600"}>In Progress</p> :
                         <p className={"font-medium text-amber-500"}>{props.eventDate}</p>}

@@ -20,7 +20,7 @@ export default function Home() {
                             registerLink={"https://docs.google.com/forms/d/e/1FAIpQLSc1yVyFRnKuFaJNe1cVf4EBEA2gHVprdxtkTJB6onDldEw2kQ/viewform"}
                             websiteLink={"https://egl.ae"} registerButtonText={"Register Now"} leagueName={"Emirates Gridiron League"}/>
               <div className="w-px h-auto bg-gray-400"></div>
-              <EventProfile eventTitle={"EFFL 2024 UAE Championship"} eventCategory={"Youth/Adult Flag Football"}
+              <EventProfile logo={"effl.png"} eventTitle={"EFFL 2024 UAE Championship"} eventCategory={"Youth/Adult Flag Football"}
                             inProgress={false} eventDate={"23 November"} registerLink={"https://docs.google.com/forms/d/e/1FAIpQLSfV3DUy2kRhADidGJSaIRwQI6DJtuhUf8r_Hwn93gRHmgocOw/viewform"}
                             registerButtonText={"Register Your Team"} leagueName={"Emirates Flag Football League"}/>
           </div>
